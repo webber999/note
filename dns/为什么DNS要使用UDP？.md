@@ -72,9 +72,3 @@ DNS是一种用于TCP/IP应用程序的分布式数据库，它提供主机名�
 6. 最终，`RFC7766 DNS over TCP（Implementation Requirements）` 被推了出来，使用TCP解决UDP无法解决的问题，TCP协议不再是一种重试机制，而是需要跟UDP完全并行支持的协议。
 
 如果随着DNS数据包的逐渐增大，TCP协议额外的开销占比就会降低，因此，在以后的互联网中，基于TCP的DNS的数据包会越来越多。所以，这篇文章的标题的问法，放在现在也许是不合适的了。
-
-## EDNS
-
-## IPSet DNS
-
-## CoreDNS
